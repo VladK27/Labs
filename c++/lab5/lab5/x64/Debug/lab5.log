@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\Karelin\Desktop\code\с++\lab5\lab5\Source.cpp(8,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\Karelin\Desktop\code\с++\lab5\lab5\Source.cpp(74,16): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\Karelin\Desktop\code\с++\lab5\lab5\mydefs.h(58): warning C4715: fact: значение возвращается не при всех путях выполнения
+  lab5.vcxproj -> C:\Users\Karelin\Desktop\code\с++\lab5\x64\Debug\lab5.exe

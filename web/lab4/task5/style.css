@@ -1,0 +1,107 @@
+div{
+    margin:30px;
+}
+div div{
+    border:solid 1px #b4b4c0;
+}
+.task-1{
+    display: grid;
+    grid-template: 
+    "div-1 div-2 div-2 div-3" 300px
+    "div-4 div-4 div-5 div-5" 300px
+    / 300px 150px 150px 300px;
+    padding:30px;
+}
+.task-1 .div-1{
+    grid-area: div-1;
+    background:linear-gradient(to bottom, #f1e608, white);
+}
+.task-1 .div-2{
+    grid-area: div-2;
+    background:linear-gradient(to left, #f1e608, white);
+}
+.task-1 .div-3{
+    grid-area: div-3;
+    background:linear-gradient(to right, #f1e608, white);
+}
+.task-1 .div-4{
+    grid-area: div-4;
+    background:linear-gradient(to bottom, red 33%, white 33%, white 66%, red 66%);
+}
+.task-1 .div-5{
+    grid-area: div-5;
+    background:linear-gradient(to right, red 10%, blue 66%, white 85%,red);
+}
+
+.task-2{
+    display:grid;
+    grid-template:
+    "div-1 div-2 div-2" 300px
+    "div-3 div-3 div-4" 300px
+    /300px 200px 300px;
+    padding:30px;
+}
+.task-2 .div-1{
+    grid-area: div-1;
+    background:radial-gradient(at center, #87d3ff, #007ac1)
+}
+.task-2 .div-2{
+    grid-area: div-2;
+    background:radial-gradient(50% 50%, #87d3ff, #0078be)
+}
+.task-2 .div-3{
+    grid-area: div-3;
+    background:radial-gradient(
+        circle
+        farthest-corner at 30px 30px,
+      #c0cbdf 0%,
+      #007ac1 15%
+      )
+}
+.task-2 .div-4{
+    grid-area:div-4;
+    background:radial-gradient(
+        circle
+        at center,
+        black 0%,
+        white 20%,
+        white 25%,
+        green 30%
+    )
+}
+.task-3{
+    display:grid;
+    grid-template-rows: 400px 100px 700px;
+    width:700px;
+}
+.task-3 div{
+    width:100%;
+    margin:10px;
+}
+.task-3 .div-1{
+    background:repeating-linear-gradient(
+        to bottom,
+        black,
+        black 10px,
+        white 10px,
+        white 20px
+    )
+}
+.task-3 .div-2{
+    background:repeating-linear-gradient(
+        45deg,
+        red,
+        red 10px,
+        white 10px,
+        white 20px
+    )
+}
+.task-3 .div-3{
+    background: repeating-radial-gradient(
+        circle,
+        black,
+        black 10px,
+        white 10px,
+        white 20px
+    )
+}

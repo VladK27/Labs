@@ -1,0 +1,27 @@
+h1{
+    width:100%;
+    text-align: center;
+}
+.page-navigation{
+    width: 280px;
+    height:50px;
+    position:fixed;
+    bottom: 10px;
+    left:40%;
+    display:grid;
+    grid-template-columns: repeat(5,50px) ;
+    
+}
+a{
+    font-size:20px;
+    text-decoration: none;
+    color:rgb(70, 70, 65);
+    margin: 5px;
+    padding: 5px;
+    text-align:center;
+    padding-top: 10px;
+    background-color: lightgrey;
+}
+.current-page{
+    background-color: #FF69B4;
+}

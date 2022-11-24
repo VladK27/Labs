@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\User\Desktop\code\c++\lab7\lab7\Source.cpp(9,17): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\User\Desktop\code\c++\lab7\lab7\Source.cpp(11,9): warning C4101: k_start: неиспользованная локальная переменная
+C:\Users\User\Desktop\code\c++\lab7\lab7\mydefs.h(58): warning C4715: fact: значение возвращается не при всех путях выполнения
+  lab7.vcxproj -> C:\Users\User\Desktop\code\c++\lab7\x64\Debug\lab7.exe

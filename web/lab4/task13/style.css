@@ -1,0 +1,53 @@
+.pre-title{
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: Noto Sans,Noto Sans CJK JP,Helvetica,Arial,sans-serif;
+    color:#a8a7a7;
+    font-size:21px;
+}
+.content{
+    width:100%;
+    height:auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+.content div{
+    font-family: Noto Sans,Noto Sans CJK JP,Helvetica,Arial,sans-serif;
+    color:#a8a7a7;
+    background-color: #fcc1aa;
+    font-size:21px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    align-content: center;
+}
+.title{
+    text-align: center;
+    flex-shrink: 4;
+    flex-basis: 20%;
+    margin-bottom: 20px;
+}
+#desc{
+    flex-basis: 25%;
+    font-family: 'Courier New', Courier, monospace;
+    color:black;
+    font-size:20px;
+}
+.line{
+    margin-left:5%;
+    margin-right:5%;
+    width:auto;
+    flex-basis: 20%;
+}
+.card-1 .line{
+    background-color: #e8adda;
+}
+.card-2 .line{
+    background-color: #5ba1e6;
+}
+.card-3 .line{
+    background-color: #6eff72;
+}

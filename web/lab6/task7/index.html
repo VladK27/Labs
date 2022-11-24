@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>7 task</title>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <link rel="icon" href="favicon-32x32.png" type="x-con">
+</head>
+
+<body>
+
+  <p><img id="largeImg" src="images/image-6.jpg" title="5 лучших аниме Хаяо Миядзаки"></p>
+
+  <ul id="thumbs">
+    <!-- браузер показывает небольшую встроенную подсказку из атрибута "title" при наведении курсора на текст -->
+    <li>
+      <a title="Навсикая из долины ветров"><img src="images/image-1-thumb.jpg"></a>
+    </li>
+    <li>
+      <a title="Мой сосед Тоторо"><img src="images/image-2-thumb.jpg"></a>
+    </li>
+    <li>
+      <a title="Унесенные призраками"><img src="images/image-3-thumb.jpg"></a>
+    </li>
+    <li>
+      <a title="Ходячий замок"><img src="images/image-4-thumb.jpg"></a>
+    </li>
+    <li>
+      <a ><img src="images/image-5-thumb.jpg" title="Ведьмина служба доставки"></a>
+    </li>
+  </ul>
+<!-- Нужно добавить скрипт -->
+  <script>
+  thumbs.onclick = function(){
+    let target = event.target;
+    let imgs = new Object;
+    imgs = {
+      "images/image-1-thumb.jpg" : "images/image-1.jpg",
+      "images/image-2-thumb.jpg" : "images/image-2.jpg",
+      "images/image-3-thumb.jpg" : "images/image-3.jpg",
+      "images/image-4-thumb.jpg" : "images/image-4.jpg",
+      "images/image-5-thumb.jpg" : "images/image-5.jpg"
+    }
+    if(target.tagName == 'IMG'){
+      let src = imgs[target.getAttribute('src')];
+      let title = target.parentElement.getAttribute('title');
+      largeImg.setAttribute('src',src);
+      largeImg.setAttribute('title',title);
+
+    } ;
+  }
+  </script>
+
+</body>
+</html>

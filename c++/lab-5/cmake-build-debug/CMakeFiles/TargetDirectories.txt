@@ -1,0 +1,3 @@
+/Users/vlad/Desktop/code/c++/lab-5/cmake-build-debug/CMakeFiles/lab_5.dir
+/Users/vlad/Desktop/code/c++/lab-5/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/vlad/Desktop/code/c++/lab-5/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,28 @@
+button{
+    background-color: lightgray;
+    border-radius: 1em;
+    border:lightgray;
+}
+.min{
+    font-size: 0.7em;
+    padding:10px;
+}
+.mid{
+    font-size: 1em;
+    padding:17px;
+}
+.max{
+    font-size:1.3em;
+    padding:23px;
+}
+.but-a{
+    width:67.5px;
+    display:block;
+    background-color: lightgray;
+    border-radius: 1em;
+    border:lightgray;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-size:1.3em;
+    padding:23px;
+}

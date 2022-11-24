@@ -1,0 +1,26 @@
+
+nav{
+    position:absolute;
+    top:0;
+    left:0;
+}
+.page-nav{
+    width:1000px;
+    list-style-type: none;   
+}
+.nav-item{
+    text-decoration:none;
+    color:#0b56ea;
+}
+.nav-item-current{
+    color:#333;
+}
+li{
+    display:inline;
+}
+li::after{
+    content:" > ";
+}
+.nav-item:hover {
+    text-decoration: underline;
+}

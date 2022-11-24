@@ -1,0 +1,92 @@
+body{
+    background-color:rgb(140, 142, 169);
+    width:100%;
+    height:100%;
+}
+div{
+    background-color: rgb(80, 83, 157);
+    color:white;
+}
+#boat{
+    position: absolute;
+    top:200px;
+    left:70px;
+    width:300px;
+    height:120px;
+    border-radius:12px;
+    text-align: center;
+}
+#boat p{
+    margin-top:47px;
+    font-size:21px;
+}   
+#mast{
+    background: linear-gradient(to right ,rgb(80, 83, 157) 0%, rgb(80, 83, 157) 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 100%);
+    position: absolute;
+    top:0;
+    left:25px;
+    width: 320px;
+    height: 13px;
+    border-radius:2px;
+}
+#sail1{
+    background-color:transparent;
+    width: 0;
+    height:0;
+    position: absolute;
+    top:-128px;
+    left:75px;
+    display: none;
+    border: 50px solid transparent;
+    border-right: 50px solid rgb(255, 255, 255);
+    border-bottom: 50px solid rgb(255, 255, 255);
+    transform:scaleY(1.5);
+}
+#sail2{
+    background-color:transparent;
+    width: 0;
+    height:0;
+    position: absolute;
+    top:-113px;
+    left:195px;
+    display: none;
+    border: 35px solid transparent;
+    border-left: 35px solid rgb(255, 255, 255);
+    border-bottom: 35px solid rgb(255, 255, 255);
+    transform:scaleY(2.15);
+}
+
+@keyframes rotateMast{
+    0% {transform:rotate(0deg);}
+    100% {transform:rotate(90deg);}
+}
+@keyframes tranformBoat {
+    0% {border-bottom-right-radius: 12px;
+        border-bottom-left-radius: 12px;
+    }
+    100% {
+        border-bottom-right-radius: 110px;
+        border-bottom-left-radius: 110px;
+    }
+}
+@keyframes transformSail1{
+    0% {transform:scaleY(0);}
+    100%{transform: scaleY(1.5);}
+}
+@keyframes transformSail2{
+    0% {transform:scaleY(0);}
+    100%{transform: scaleY(2.15);}
+}
+@keyframes boatGo{
+    0% {
+        border-bottom-right-radius: 110px;
+        border-bottom-left-radius: 110px;
+        left:70px;
+        animation-timing-function: ease-in;
+    }
+    100% {
+        border-bottom-right-radius: 110px;
+        border-bottom-left-radius: 110px;
+        left:1500px;
+    }
+}

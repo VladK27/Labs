@@ -1,0 +1,17 @@
+div{
+    height:200px;
+    width:200px;
+    border:solid 1px lightgrey;
+    margin:50px;
+}
+.div-1{
+    box-shadow: 25px 25px 4px gray;
+}
+.div-2{
+    box-shadow: 
+    -25px -25px 6px grey,
+    25px 25px 6px grey;
+}
+.div-3{
+    box-shadow:inset 7px 7px 10px grey;
+}

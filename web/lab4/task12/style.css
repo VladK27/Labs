@@ -1,0 +1,18 @@
+.content{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.block{
+    width:200px;
+    height: 400px;
+    background-color: blue;
+    border:solid 1px black;
+    align-self: stretch;
+}
+@media (min-width: 400px){
+     .content{
+        
+     }
+}

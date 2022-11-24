@@ -1,0 +1,139 @@
+.circle{
+    background-color: #a8c4ce;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    z-index: 1;
+}
+.house{
+    width:210px;
+    height:80px;
+    background-color: #e8e8e8;
+    position:absolute;
+    top: 290px;
+    left:200px;
+    z-index: 1;
+}
+.tower{
+    
+    width:60px;
+    height: 180px;
+    background-color: #e8e8e8;
+    position:absolute;
+    top:190px;
+    left:140px;
+}
+.tower::after{
+    content:linear-gradient(#413d3d, #413d3d);
+    position: absolute;
+    top:20px;
+    right:20px;
+    width: 18px;
+    height: 28px;
+}
+.tower::before{
+    content:linear-gradient(rgba(255, 0, 0, 0), rgba(255, 0, 0, 0));
+    position: absolute;
+    top:-244px;
+    border: 30px solid transparent;
+    border-bottom: 30px solid rgb(224, 96, 79); 
+}
+.big-cloud, .little-cloud{
+    background-color: #ffffff;
+    position:absolute;
+    z-index:0;
+}
+.big-cloud{
+    border-radius:60px 60px 0 0;
+    width:60px;
+    height:30px;
+}
+.little-cloud{
+    border-radius: 40px 40px 0 0;
+    width:40px;
+    height: 20px;
+}
+#lcl3{
+    top:120px;
+    left:317px;
+}
+#lcl2{
+    top:170px;
+    left:315px;
+}
+#lcl1{
+    top:170px;
+    left:220px;
+}
+#cl1{
+    top: 160px;
+    left:330px;
+}
+#cl2{
+    top: 110px;
+    left:270px;
+}
+.roof{
+    width:190px;
+    height:60px;
+    position: absolute;
+    top:-60px;
+    left:0;
+    background-color: rgb(224, 96, 79);
+}
+.roof::after{
+    content:linear-gradient(#413d3d, #413d3d);
+    position:absolute;
+    bottom:0;
+    right:-20px;
+    border: 20px solid transparent; 
+    border-bottom: 20px solid rgb(224, 96, 79); 
+}
+.roof::before{
+    content:linear-gradient(rgb(224, 96, 79), rgb(224, 96, 79));
+    width:47px;
+    height:28px;
+    position:absolute;
+    bottom:0;
+    right:190px;
+    z-index: 2;
+}
+.house::before{
+    content:linear-gradient(to right, #413d3d 0%, #413d3d 12%, #e8e8e8 12%, #e8e8e8 15%, #413d3d 15%, #413d3d 27%,
+     #e8e8e8 27%,  #e8e8e8 30%, #413d3d 30%, #413d3d 44%, #e8e8e8 44%, #e8e8e8 60%, #413d3d 60%, #413d3d 72%, #e8e8e8 72%, #e8e8e8 75%, #413d3d 75%, #413d3d 87%, #e8e8e8 87%);
+    width:200px;
+    height:38px;
+    position: absolute;
+    top:10px;
+    left:0;
+}
+.clouds{
+    animation: move-clouds 13s linear infinite;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 0;
+}
+.background{
+    background-color: #9b9393;
+    position:absolute;
+    top:0;
+    left:0;
+    background: radial-gradient(at center, transparent 0%, transparent 80%);
+    height: 500px;
+    width: 500px;
+    z-index: 10;
+}
+body{
+    z-index:0;
+}
+
+@keyframes move-clouds{
+    0% {
+        left: -400px;
+    }
+
+    100% {
+        left: 260px;
+    }
+}

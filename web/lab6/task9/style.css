@@ -1,0 +1,71 @@
+.space{
+    background-image:url(img/bg.jpg);
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: auto;
+    width:600px;
+    height:400px;
+}
+img{
+    position:absolute;
+    width:auto;
+    height: auto;
+}
+.planet-1{
+    top:50px;
+    left:130px;
+    z-index:0;
+}
+.planet-2{
+    top:130px;
+    left:60px;
+    z-index:1;
+}
+.planet-3{
+    top:150px;
+    left:150px;
+    z-index:3;
+}
+#div3{
+    grid-area:asteroid;
+    z-index: 5;
+}
+#div1{
+    grid-area:spaceship;
+    z-index:5;
+}
+#div2{
+    grid-area:ufo;
+    z-index:5;
+}
+.superman{
+    top:337px;
+    left:500px;
+}
+#rotate{
+    display:grid;
+    grid-template-areas: "ufo asteroid spaceship";
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: 100px;
+    position: absolute;
+    top:220px;
+    left:160px;
+    width:300px;
+    height:100px;
+    z-index: 4;
+}
+#button{
+    position: absolute;
+    top:310px;
+    left:241px;
+    width:100px;
+    height:40px;
+    background-color: lightsalmon;
+    border:none;
+    border-radius: 10px;
+    color: white;
+    z-index: 5;
+}
+#button:hover{
+    background-color: rgb(248, 141, 98);
+}

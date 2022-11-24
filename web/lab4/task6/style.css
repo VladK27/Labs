@@ -1,0 +1,39 @@
+.content{
+    width:auto;
+    position:absolute;
+    top:200px;
+    right:600px;
+    font-size: 21px;
+    border:solid 1px #d19898;
+    border-radius:15px;
+    padding:20px;
+    text-align: center;
+
+}
+.content p{
+    margin:30px;
+}
+.shadow{
+    text-shadow: 10px 10px #a9a9a9;
+}
+.shadow-2{
+    text-shadow: 10px 10px 3px #a9a9a9;
+}
+.double-shadow{
+    color:rgb(0, 0, 206);
+    text-shadow:
+     -3px -5px 1px rgb(0, 0, 0),
+     10px 7px 1px red;
+}
+.downpress{
+    color: #bebbbb;
+    text-shadow: 0.5px 0.5px 0.2px #5f5f5f;
+}
+.volume{
+    color: #bebbbb;
+    text-shadow: -0.5px -0.7px 0.1px #646464;
+}
+.border{
+    color:white;
+    text-shadow: 0 0 1px black;
+}

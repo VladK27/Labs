@@ -1,0 +1,3 @@
+/Users/vlad/Desktop/code/c++/tests/cmake-build-debug/CMakeFiles/tests.dir
+/Users/vlad/Desktop/code/c++/tests/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/vlad/Desktop/code/c++/tests/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,34 @@
+.title{
+    z-index: 0;
+    position:fixed;
+    background-color: rgb(177, 119, 175);
+    color:beige;
+    font-size:21px;
+    border-bottom:solid 2px lightgreen;
+    top:0;
+    left:0;
+    height: 35px;
+    padding:7px;
+    width:100%; 
+    text-align: center;
+    font-family: 'Microsoft YaHei', 微软雅黑, 'MicrosoftJhengHei', 华文细黑, STHeiti, MingLiu;
+
+}
+
+.content{
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    top:70px;
+    padding-left:50px;
+    padding-right: 50px;
+}
+
+.news{
+    margin-left: 35%;
+    padding-top: 30px;
+    width:300px;
+    padding: 10px;
+    border: solid 1px lightblue;
+
+}

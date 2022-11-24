@@ -1,0 +1,16 @@
+.wavy{
+    text-decoration-line:underline;
+    text-decoration-style: wavy;
+    text-decoration-color: blue;
+}
+.dotted{
+    text-decoration-line: underline;
+    text-decoration-style:dotted;
+    text-decoration-color: lightpink;
+}
+.dashed{
+    text-decoration:underline dashed #4e9b4e;
+}
+.underline{
+    text-decoration:underline double red;
+}

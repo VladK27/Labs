@@ -1,0 +1,21 @@
+#progress{
+    width:400px;
+    height:20px;
+}
+span{margin-left:10px;
+    font-size:17px;
+}
+p{
+    font-size:21px;
+}
+#increase-progress{
+    margin-top:20px;
+    border:none;
+    border-radius:5px;
+    font-size:18px;
+    display: block;
+    width:200px;
+    height:50px;
+    background-color: rgb(66, 90, 224);
+    color:aliceblue;
+}

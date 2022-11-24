@@ -1,0 +1,1 @@
+let solve = () => document.querySelector('.result').innerHTML = (parseInt(document.querySelector('.inpt-1').value) + parseInt(document.querySelector('.inpt-2').value))

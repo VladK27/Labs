@@ -1,0 +1,48 @@
+.content{
+    padding:50px;
+    width:900px;
+    display: grid;
+    grid-template-rows: repeat(3, 250px);
+    grid-template-columns:repeat(2, 500px);
+}
+.content div{
+    display: grid;
+    column-gap: 10px;
+    grid-template:
+    "title title" 40px
+    "img-o img-f" 180px
+    / 180px 180px;
+}
+.content div p{
+    grid-area: title;
+}
+.filter{
+    grid-area:img-f;
+}
+.original{
+    grid-area:img-o;
+}
+img{
+    border:solid black 1px;
+    width:180px;
+    height: 180px;
+}
+
+.grayscale{
+    filter:grayscale(100%);
+}
+.sepia{
+    filter:sepia(100%);
+}
+.saturate{
+    filter:saturate(100%);
+}
+.hue-rotate{
+    filter:hue-rotate(90deg);
+}
+.invert{
+    filter:invert(100%);
+}
+.contrast{
+    filter:contrast(70%);
+}
